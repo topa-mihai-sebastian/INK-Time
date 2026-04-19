@@ -27,20 +27,20 @@ Sistemul este construit în jurul microcontrollerului nRF52840 și integrează:
                  v                                  |  MAX17048     |
           +---------------+                         | Fuel Gauge    |
           |   RT6160      |                         +---------------+
-          | Buck-Boost    |                                |
-          +---------------+                                |
-                 | 3.3V                                   |
-                 |                                        |
+          | Buck-Boost    |                                 |
+          +---------------+                                 |
+                 | 3.3V                                     |
+                 |                                          |
         +------------------- nRF52840 MCU ------------------+
         |                                                   |
-        | I2C ---> BMA421                                  |
-        | I2C ---> DRV2605L ---> Motor                     |
-        | I2C ---> MAX17048                               |
-        | I2C ---> BQ25180, RT6160                        |
+        | I2C ---> BMA421                                   |
+        | I2C ---> DRV2605L ---> Motor                      |
+        | I2C ---> MAX17048                                 |
+        | I2C ---> BQ25180, RT6160                          |
         |                                                   |
-        | SPI ---> E-paper Display                         |
-        | GPIO ---> Buttons                                |
-        | GPIO ---> PFET (Display Power)                   |
+        | SPI ---> E-paper Display                          |
+        | GPIO ---> Buttons                                 |
+        | GPIO ---> PFET (Display Power)                    |
         +---------------------------------------------------+
 ```
 
